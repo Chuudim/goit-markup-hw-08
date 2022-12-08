@@ -426,7 +426,12 @@ img {
 }
 
 .list-item {
-  margin-right: 50px;
+  margin-right: 0;
+}
+@media screen and (min-width: 1200px) {
+  .list-item {
+    margin-right: 50px;
+  }
 }
 
 .list-adress .link.current {
