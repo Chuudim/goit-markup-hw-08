@@ -1,0 +1,82 @@
+.form-title-footer {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    color: var(--background-color);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+
+    @media screen and (max-width:480px) {
+    display: flex;
+    justify-content: center;
+        }
+
+        @media screen and (min-width:768px) and (max-width:1199.7px) {
+            margin-top: 60px;
+                display: flex;
+                /* flex-direction: row; */
+                justify-content: center;
+        }                
+
+}
+
+.form-footer-label {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+        @media screen and (min-width:768px) {
+            display: flex;
+            flex-direction: column;
+            }
+        
+            @media screen and (min-width:1200px) {
+            display: flex;
+            }
+        }
+
+.form-footer-input {
+    margin-right: 10px;
+    width: 450px;
+    height: 50px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding: 16px;
+    caret-color: var(--background-color);
+    color: var(--background-color);
+
+
+    @media screen and (min-width:1200px) {
+        width: 358px;
+        height: 50px;
+    }
+
+}
+
+.form-footer-input> ::placeholder {
+    font-size: 16px;
+    line-height: calc(20 / 16);
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.follow-form {
+    margin-top: 60px;
+
+    @media screen and (min-width:768px) {
+        margin-top: 0;
+        margin-left: 0%;
+    }
+
+        @media screen and (min-width:1200px) {
+            margin-top: 0;
+            margin-left: auto;
+        }
+}

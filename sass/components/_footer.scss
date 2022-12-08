@@ -1,0 +1,127 @@
+/* FOOTER */
+
+.footer {
+    background-color: var(--background-color-footer);
+    padding: 60px 0;
+    display: flex;
+}
+
+.logo-link-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    color: var(--background-color);
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    margin-left: 148px;
+    margin-right: 148px;
+ 
+@media screen and (min-width:768px) {
+        margin-bottom: 20px;
+        margin-left: 100px;
+        margin-right: auto;
+    }
+
+
+     @media screen and (min-width:1200px) {
+            margin-bottom: 20px;
+            margin-left: 0;
+            margin-right: 0;
+     }
+}
+
+.adress {
+    font-style: normal;
+    margin-top: 20px;
+
+        @media screen and (max-width:480px) {
+            text-align: center;
+            }
+
+ @media screen and (min-width:768px) and (max-width:1199.7px) {
+margin-left: 61px;
+text-align: center;
+ }
+        
+        }
+        
+
+.footer-adress {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+    color: var(--background-color);
+
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.footer-logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        // @media screen and (min-width:768px) {
+        //     display: flex;
+        //         align-items: baseline;
+            
+        // }
+
+                   @media screen and (min-width:1200px) {
+                       display: flex;
+                       align-items: baseline;
+                   }
+}
+
+.footer-item:not(:first-child) {
+    margin-top: 12px;
+}
+
+
+
+.title-join {
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+    color: var(--background-color);
+    margin-bottom: 20px;
+    margin-left: 152px;
+    margin-right: 152px;
+    margin-top: 60px;
+
+    @media screen and (min-width:768px) {
+            margin-left: 219px;
+            margin-right: 103px;
+            margin-bottom: 20px;
+            margin-top: 0;
+    }
+
+        @media screen and (min-width: 1200px) {
+            font-weight: 700;
+            line-height: calc(16 / 14);
+            text-transform: uppercase;
+            color: var(--background-color);
+            margin-bottom: 20px;
+            margin-left: 0;
+                margin-right: 0;
+                margin-top: 0;
+        }
+}
+
+
+

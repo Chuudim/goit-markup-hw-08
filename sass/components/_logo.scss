@@ -1,0 +1,28 @@
+.web-logo {
+    color: var(--accent-color)
+}
+
+.logo-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    color: var(--black-color);
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+
+    @media screen and (max-width: 767.7px) {
+        margin-top: 16px;
+            margin-bottom: 16px;
+            font-size: 24px;
+    }
+       
+         @media screen and (min-width:768px) and (max-width: 1199.7px) {
+             margin-top: 16px;
+             margin-bottom: 16px;
+            font-size: 24px;
+            margin-right: 88px;
+         }
+}

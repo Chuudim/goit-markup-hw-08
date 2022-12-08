@@ -1,0 +1,31 @@
+// utils
+@import './utils/variables';
+@import './utils/v-hidden';
+
+// base
+@import './base/base';
+@import './base/reset';
+
+// components
+@import './components/container';
+@import './components/section';
+@import './components/buttons';
+@import './components/header';
+@import './components/logo';
+@import './components/navigations';
+@import './components/adress';
+@import './components/hero';
+@import './components/advantages';
+@import './components/work';
+@import './components/team';
+@import './components/social-icon';
+@import './components/clients';
+@import './components/footer';
+@import './components/form-footer';
+@import './components/footer-icon';
+@import './components/portfolio-main';
+@import './components/examples';
+@import './components/menu';
+// @import './components/backdrop';
+@import './components/modal';
+@import './components/form-checkbox';
