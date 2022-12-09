@@ -16,8 +16,7 @@
     /* identical to box height */
     letter-spacing: 0.03em;
     margin-bottom: 20px;
-    margin-left: 148px;
-    margin-right: 148px;
+    text-align: center;
  
 @media screen and (min-width:768px) {
         margin-bottom: 20px;
@@ -72,15 +71,15 @@ text-align: center;
 }
 
 .footer-logo {
-        display: flex;
+        display: block;
         flex-wrap: wrap;
         justify-content: center;
 
-        // @media screen and (min-width:768px) {
-        //     display: flex;
-        //         align-items: baseline;
-            
-        // }
+        @media screen and (min-width:768px) {
+            display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+        }
 
                    @media screen and (min-width:1200px) {
                        display: flex;
@@ -100,8 +99,6 @@ text-align: center;
     text-transform: uppercase;
     color: var(--background-color);
     margin-bottom: 20px;
-    margin-left: 152px;
-    margin-right: 152px;
     margin-top: 60px;
 
     @media screen and (min-width:768px) {
@@ -123,5 +120,10 @@ text-align: center;
         }
 }
 
-
+.footer-nav {
+    @media screen and (max-width:767.9px) {
+        text-align: center;
+        
+    } 
+}
 
